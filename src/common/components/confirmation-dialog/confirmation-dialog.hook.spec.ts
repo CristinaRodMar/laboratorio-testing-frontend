@@ -42,7 +42,6 @@ import { useConfirmationDialog } from './confirmation-dialog.hook';
         result.current.onAccept();
         });
 
-        // Al aceptar, itemToDelete vuelve a su estado inicial vacío
         expect(result.current.itemToDelete.id).toBe('');
     });
     });
